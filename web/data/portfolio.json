@@ -1,0 +1,220 @@
+{
+	"profile": {
+		"name": "Ali Al-buni",
+		"title": {
+			"ar": "مطور Backend | Laravel , Express.js",
+			"en": "Backend Developer | Laravel & Express.js"
+		},
+		"bio": {
+			"ar": "مطور ويب متخصص في بناء APIs وتطبيقات الويب باستخدام Laravel و Express.js. أحب بناء حلول تقنية مبتكرة وتحسين أداء التطبيقات.",
+			"en": "Web developer specialized in building APIs and web applications using Laravel, Express.js. I love building innovative technical solutions and optimizing application performance."
+		},
+		"image": "/images/profile.jpg",
+		"email": "aliboune184@gmail.com",
+		"github": "https://github.com/ali-buni",
+		"linkedin": "www.linkedin.com/in/ali-al-buni-58a12837a"
+	},
+	"skills": [
+		{
+			"name": "Laravel",
+			"category": "backend",
+			"level": 90,
+			"description": {
+				"ar": "إطار عمل PHP للويب مع Eloquent ORM",
+				"en": "PHP web framework with Eloquent ORM"
+			},
+			"icon": "laravel"
+		},
+		{
+			"name": "Express.js",
+			"category": "backend",
+			"level": 70,
+			"description": {
+				"ar": "إطار عمل Node.js للـ APIs",
+				"en": "Node.js framework for APIs"
+			},
+			"icon": "express"
+		},
+		{
+			"name": "MySQL",
+			"category": "database",
+			"level": 80,
+			"description": {
+				"ar": "نظام إدارة قواعد البيانات العلائقية",
+				"en": "Relational database management system"
+			},
+			"icon": "mysql"
+		},
+		{
+			"name": "Redis",
+			"category": "database",
+			"level": 70,
+			"description": {
+				"ar": "خزنة في الذاكرة وبرنامج تخزين بيانات",
+				"en": "In-memory cache and data store"
+			},
+			"icon": "redis"
+		},
+		{
+			"name": "Git",
+			"category": "tools",
+			"level": 85,
+			"description": {
+				"ar": "نظام التحكم في الإصدارات",
+				"en": "Version control system"
+			},
+			"icon": "git"
+		},
+		{
+			"name": "REST APIs",
+			"category": "backend",
+			"level": 100,
+			"description": {
+				"ar": "تصميم وبناء واجهات برمجة التطبيقات",
+				"en": "Designing and building APIs"
+			},
+			"icon": "api"
+		},
+		{
+			"name": "Problem Solving",
+			"category": "tools",
+			"level": 80,
+			"description": {
+				"ar": "",
+				"en": ""
+			}
+		},
+		{
+			"name": "Python",
+			"category": "backend",
+			"level": 80,
+			"description": {
+				"ar": "",
+				"en": ""
+			}
+		}
+	],
+	"projects": [
+		{
+			"id": "1784978883144",
+			"title": {
+				"ar": "TaskFlow — Full-Stack Project Management Platform",
+				"en": "TaskFlow — Full-Stack Project Management Platform"
+			},
+			"description": {
+				"ar": "* التحقق من الهوية والأمن (Authentication & Security): مصادقة تعتمد على رموز JWT مع رموز التحديث (Refresh Tokens)، وتسجيل الدخول عبر جهات خارجية OAuth (Google/GitHub)، والمصادقة ثنائية العامل (TOTP)، والتحكم في الوصول القائم على الأدوار (هيكل من 5 مستويات)، وتسجيل عمليات التدقيق (Audit Logging).\n* التعاون في الوقت الفعلي (Real-time Collaboration): تحديثات حية مدعومة عبر Socket.io، وتتبع حالة التواجد عبر الإنترنت (Online Presence Tracking)، وإشعارات فورية عبر مساحات العمل والمشاريع والمهمات.\n* لوحات كانبان (Kanban Boards): إدارة المهام بسحبها وإفلاتها (Drag-and-drop) مع حالات قابلة للتكوين، وتصنيفات (Labels)، وقوائم التحقق (Checklists)، والعمليات الجماعية (Bulk Operations)، ومستويات الأولوية.\n* دمج الذكاء الاصطناعي (AI Integration): اقتراحات للمهام مدعومة عبر Gemini API، ومحادثة مع مساعد المشروع (Project Assistant Chat)، وتوصيات بشأن الأولوية والشخص المسؤول عن المهمة، وتقييم المخاطر.\n* التحليلات وإعداد التقارير (Analytics & Reporting): مخططات الاحتراق (Burndown Charts)، وتحليل الاتجاهات (Trend Analysis)، وتوزيع عبء العمل (Workload Distribution)، وتتبع الميزانية، وتصدير التقارير بصيغ CSV و PDF.\n* إدارة الملفات وتتبع الوقت (File Management & Time Tracking): رفع الملفات باستخدام موديول Multer مع معالجة الصور عبر Sharp؛ مؤقت مدمج، وإدخالات يدوية، وتقارير الوقت لكل مشروع.\n* العمليات والإنتاج (DevOps & Deployment): إعداد Docker Compose متعدد الحاويات (PostgreSQL، وRedis، وNode.js، وNginx كخادم وكيل عكسي Reverse Proxy) مع فحوصات السلامة (Health Checks) ووحدات التخزين الدائمة (Persistent Volumes).",
+				"en": "• Authentication & Security: JWT-based auth with refresh tokens, OAuth (Google/GitHub), two-factor authentication (TOTP), role-based access control (5-level hierarchy), and audit logging. \n• Real-time Collaboration: Socket.io-powered live updates, online presence tracking, and instant notifications across workspaces, projects, and tasks. \n• Kanban Boards: Drag-and-drop task management with configurable statuses, labels, checklists, bulk operations, and priority levels. \n• AI Integration: Gemini API-powered task suggestions, project assistant chat, priority and assignee recommendations, and risk assessment. \n• Analytics & Reporting: Burndown charts, trend analysis, workload distribution, budget tracking, and CSV/PDF export. \n• File Management & Time Tracking: Multer-based file uploads with Sharp image processing.\n• DevOps & Deployment: Multi-container Docker Compose setup (PostgreSQL, Redis, Node.js, Nginx reverse proxy) with health checks and persistent volumes."
+			},
+			"image": "",
+			"technologies": [
+				"React 18",
+				"TypeScript",
+				"Node.js",
+				"Express",
+				"PostgreSQL",
+				"Redis",
+				"Socket.io",
+				"Docker"
+			],
+			"github": "",
+			"demo": "",
+			"featured": true
+		},
+		{
+			"id": "1784979389313",
+			"title": {
+				"ar": "Clinic System Management",
+				"en": "Clinic System Management"
+			},
+			"description": {
+				"ar": "* تصميم نظام متعدد الأدوار (طبيب، سكرتير، مريض، مسؤول) يتميز بالتحكم المتقدم في الوصول القائم على الأدوار (RBAC).\n* تطبيق الجدولة المؤتمتة للمواعيد، ساعات عمل الأطباء المرنة، السجلات الطبية للمرضى، والإشعارات المباشرة.\n* بناء وحدة فواتير قوية تدعم فواتير الدفع المجزأ ونظام تتبع مالي آمن.\n* إدارة المرضى والأطباء مع الملفات الشخصية والجدولة.\n* حجز المواعيد مع تخصيص الغرف.\n* السجلات السريرية مع الوصفات الطبية وتتبع الأمراض.\n* الفواتير مع معالجة الدفع عبر Stripe.\n* نظام أرباح وسحب الأطباء.\n* ميزات الذكاء الاصطناعي: تلخيص التقارير الطبية، مساعد المواعيد، وبوت محادثة المرضى.\n* تحليلات العيادة مع النمذجة التنبؤية.",
+				"en": "AI features: medical report summarization, appointment assistant, patient chatbot. \n• Clinic analytics with predictive modeling. \n• Designed a multi-role system (Doctor, Secretary, Patient, Admin) featuring advanced Role-Based \nAccess Control (RBAC). \n• Implemented automated appointment scheduling, flexible doctor working hours, patient medical \nrecords, and live notifications. \n• Built a robust billing module supporting split-payment invoicing and a secure financial tracking \nsystem."
+			},
+			"image": "",
+			"technologies": ["Laravel", "PHP", "MySQL"],
+			"github": "",
+			"demo": "",
+			"featured": true
+		},
+		{
+			"id": "1784980272873",
+			"title": {
+				"ar": "Apartment Management System",
+				"en": "Apartment Management System"
+			},
+			"description": {
+				"ar": "منصة إدارة ممتلكات كاملة لمجمعات الشقق مع ميزات في الوقت الحقيقي.\n\n*صلاحيات مستندة للأدوار (Admin/Staff/Tenant)\n*فواتير إيجار يومية تلقائية\n*تتبع دورة طلبات الصيانة\n*تحديثات فورية عبر Pusher WebSocket\n*تاريخ حجز ومعاملات محفظة ونظام رسائل",
+				"en": "A complete property management platform for apartment complexes with real-time features.\n\n*Role-based access (Admin/Staff/Tenant) with Sanctum authentication\n*Auto-generated daily rent invoices\n*Maintenance request lifecycle tracking (Pending → In Progress → Resolved)\n*Real-time updates via Pusher WebSocket\n*Booking history, wallet transactions, and messaging system"
+			},
+			"image": "",
+			"technologies": ["Laravel", "PHP", "MySQL", "Pusher"],
+			"github": "",
+			"demo": "",
+			"featured": true
+		},
+		{
+			"id": "1784980445907",
+			"title": {
+				"ar": "Restaurant Point of Sale (POS)",
+				"en": "Restaurant Point of Sale (POS)"
+			},
+			"description": {
+				"ar": "* إنشاء نظام كاشير مكتبي (Desktop System) عالي الأداء يتميز بواجهة مستخدم رسومية (GUI) بديهية مبنية باستخدام Java Swing.\n* تطبيق نظام فعال لجدولة الطلبات وتتبع تحضير الطعام، إلى جانب وحدات ديناميكية لإعداد التقارير المالية وإدارة المخزون.\n",
+				"en": "* Created a high-performance cashier desktop system featuring an intuitive Graphical User \nInterface (GUI) built with Java Swing. \n• Implemented efficient order queuing and food preparation tracking, alongside dynamic financial \nreporting and inventory management modules"
+			},
+			"image": "",
+			"technologies": ["Java", "Swing"],
+			"github": "",
+			"demo": "",
+			"featured": true
+		},
+		{
+			"id": "1784986479932",
+			"title": {
+				"ar": "Desktop School Management System",
+				"en": "Desktop School Management System"
+			},
+			"description": {
+				"ar": "* بناء تطبيق مكتبي (Desktop Application) يعمل دون اتصال بالإنترنت يتميز بواجهة مستخدم رسومية (GUI) نظيفة عبر Tkinter لإدارة تسجيل الطلاب والسجلات الأكاديمية.\n* تصميم ودمج قاعدة بيانات MySQL علاقة لضمان تخزين بيانات دائم وآمن ومنظم.",
+				"en": "* Built an offline desktop application featuring a clean Graphical User Interface (GUI) via Tkinter to \nhandle student enrollment and academic records. \n• Designed and integrated a relational MySQL database to ensure persistent, secure, and \nstructured data storage. "
+			},
+			"image": "",
+			"technologies": ["Python", "Tkinter", "MySQL"],
+			"github": "",
+			"demo": "",
+			"featured": true
+		},
+		{
+			"id": "1784986702287",
+			"title": {
+				"ar": "Games and Tools",
+				"en": "Games and Tools"
+			},
+			"description": {
+				"ar": "حجر ورقة مقص (GUI مع تنقل الصفحات)\nسباق السلحفاة (3 سلحفاة ملونة)\nلعبة تخمين الكلمات\nلعبة تخمين الأرقام (منطق الأبقار والثيران)\nلعبة Mastermind\nفاكس الأعداد الأولية\nإشعار سطح مكتب\nأداة لقطة الشاشة\nمسجل المفاتيح\nساعة رقمية (رسوميات Turtle)\nعداد تنازلي\nلعبة تخمين",
+				"en": "* Rock, Paper, Scissors (GUI with page navigation)\n* Turtle Race (3 colored turtles)\n* Word Guessing Game\n* Number Guessing Game (Cows and Bulls logic)\n* Mastermind Game\n* Prime Numbers Fax\n* Desktop Notification\n* Screenshot Tool\n* Keystroke Recorder (Keylogger)\n* Digital Clock (Turtle graphics)\n* Countdown Timer\n* Guessing Game"
+			},
+			"image": "",
+			"technologies": ["Python"],
+			"github": "",
+			"demo": "",
+			"featured": false
+		},
+		{
+			"id": "1784986915573",
+			"title": {
+				"ar": "Applications",
+				"en": "Applications"
+			},
+			"description": {
+				"ar": "1. تطبيق الرسم (Paintrest)\nتطبيق رسم مستوحى من برنامج (MS Paint) يتميز بشريط أدوات على طراز شريط الريبون (Ribbon-style).\n\n* قائمة ملف (File Menu): جديد، فتح، حفظ، حفظ باسم، إغلاق مع تأثيرات التمرير (Hover effects).\n* لوحة ألوان تحتوي على 18 لوناً، مع أداة اختيار الألوان المخصصة بنظام RGB.\n* أدوات الأشكال: خط، مستطيل، شكل بيضاوي، مثلث، نقل، ونص.\n* شريط منزلق للتحكم في العرض (0-100)، وتبديل الألوان بين الأساسي والثانوي.\n* أكثر من 435 سطراً برمجياً مع بنية برمجية معيارية (tool_frames، وproperties، وCanvasMethod).\n\n2. قاعدة بيانات المدرسة (CRUD + SQLite)\nتطبيق قاعدة بيانات كامل لإدارة الطلاب مع دمج حقيقي لقاعدة بيانات SQLite.\n\n* عمليات: إضافة، حذف، تحديث، وخروج.\n* قاعدة بيانات SQLite مع معرفات (IDs) تلقائية الزيادة وإعادة الترقيم بعد الحذف.\n* موديول تسجيل (Logging module) يقوم بتسجيل جميع العمليات مع طوابع زمنية.\n* رسائل حالة ملونة (الأخضر=نجاح، الأحمر=تم الحذف، الأصفر=غير موجود، الأزرق=تم التحديث).\n* معبأ كملف تنفيذي (.exe) للتوزيع.\n\n3. جناح الساعة (أداة 4 في 1)\nتطبيق ساعة متعدد الأدوات يحتوي على 4 أوضاع:\n\n* عداد تنازلي مع شاشة رقمية تعرض الوقت الفعلي.\n* تقويم يغطي نطاق 100 عام (1970-2070) مع إمكانية التنقل.\n* ساعة إيقاف (Stopwatch) مع ميزة حفظ الدورات (Laps).\n* تصميم برمجة كائنية التوجه (OOP) معياري باستخدام فئات Tkinter Frame الفرعية.\n\n4. نظام التسجيل وتسجيل الدخول (MVC)\nنظام تسجيل متكامل يعتمد على نمط MVC ويحتوي على:\n\n* نوافذ لتسجيل الدخول وإنشاء الحساب مع إمكانية التنقل بينها.\n* التحقق من صحة البريد الإلكتروني باستخدام التعبيرات النمطية (Regex) لـ (gmail.com@).\n* مؤشر فوري لقوة كلمة المرور (أخضر/أحمر).\n* صور رمزية للمستخدمين (Avatar)، تأثيرات التمرير، وقناع لإخفاء الحقول (Field masking).\n\n5. مسجل الشاشة (Screen Recorder)\nتطبيق لتسجيل الشاشة مع عناصر تحكم لبدء التسجيل، وإيقافه مؤقتاً، واستئنافه، وإيقافه تماماً.\n\n* يسجل بمعدل 30 إطاراً في الثانية (FPS) مع تسمية مخصصة للملفات.\n* تتغير صور الأزرار عند التمرير فوقها (الحالة العادية مقابل الحالة النابضة بالحياة).\n* نمط آلة الحالة (State machine pattern) لإدارة حالات التسجيل.\n\n6. الحاسبة (واجهة مستخدم حديثة)\nحاسبة كاملة تستخدم مكتبة customtkinter للحصول على مظهر عصري.\n\n* لوحة أرقام، معاملات حسابية، النسبة المئوية، وزر الحذف.\n* لوحة سجل العمليات (History panel) باستخدام ScrolledText.\n* معالجة الأخطاء مع نص باللون الأحمر للمدخلات غير الصالحة.\n\n7. محرر الصور (Image Editor)\nمحرر صور يعتمد على علامات التبويب ويحتوي على 4 فئات من الأدوات:\n\n* الضبط، النص، الفلاتر، والقص والتدوير.\n* بنية معيارية تفصل واجهة المستخدم عن معالجة مكتبة PIL.\n\n8. أداة ضغط الصور (Image Compression Tool)\nأداة عملية لضغط صور PNG.\n\n* دمج نافذة حوار الملفات (File dialog) للتصفح والحفظ.\n* تغيير حجم PIL مع إعادة أخذ العينات (Resampling) لغرض الضغط.\n\n9. نموذج أولي لبيئة التطوير (IDLE Prototype)\nنموذج أولي لبيئة تطوير متكاملة أساسية مع واجهة جزء مقسم قابلة لتغيير الحجم.\n\n* تخطيط PanedWindow للشريط الجانبي ومنطقة المحرر.\n\n10. أداة تدوير الشاشة (Rotate Screen Tool)\nتقوم بتدوير الشاشة الفعلية إلى 0، و90، و180، و270 درجة.\n\n* تراجع تلقائي بعد ثوانٍ محددة.\n* دمج برنامج تشغيل شاشة Windows عبر rotatescreen.\n\n11. الساعة الرقمية (Digital Clock)\nساعة رقمية بسيطة ومجمعة كملف تنفيذي (.exe) جاهز للتوزيع.\n",
+				"en": "1. Paint Application (Paintrest)\nA MS Paint-inspired drawing application with ribbon-style toolbar.\n\nFile Menu: New, Open, Save, Save As, Close with hover effects\nColor palette with 18 colors, RGB custom color picker\nShape tools: line, rectangle, oval, triangle, move, text\nWidth slider (0-100), primary/secondary color switching\n435+ lines with modular architecture (tool_frames, properties, CanvasMethod)\n2. School Database (CRUD + SQLite)\nA full database application for managing students with real SQLite integration.\n\nAppend, Delete, Update, Exit operations\nSQLite with auto-incrementing IDs and renumbering after deletion\nLogging module recording all operations with timestamps\nColor-coded status messages (green=success, red=deleted, yellow=not found, blue=updated)\nPackaged as .exe for distribution\n3. Clock Suite (4-in-1 Tool)\nA multi-tool clock application with 4 modes:\n\nCountdown Timer with real-time digital display\nCalendar with 100-year range (1970-2070) navigation\nStopwatch with lap saving\nModular OOP design using Tkinter Frame subclasses\n4. Register/Login System (MVC)\nA complete MVC registration system with:\n\nLogin and Sign In frames with navigation\nRegex-based email validation (@gmail.com)\nReal-time password strength indicator (green/red)\nUser avatar, hover effects, field masking\n5. Screen Recorder\nA screen recording application with start/pause/resume/stop controls.\n\nRecords at 30 FPS with custom file naming\nButton images change on hover (normal vs vibrant states)\nState machine pattern for recording states\n6. Calculator (Modern UI)\nA full calculator using customtkinter for modern styling.\n\nNumber pad, arithmetic operators, percentage, delete\nHistory panel with ScrolledText\nError handling with red text for invalid inputs\n7. Image Editor\nA tab-based image editor with 4 tool categories:\n\nAdjustment, Text, Filter, and Crop & Rotate\nModular architecture separating UI from PIL processing\n8. Image Compression Tool\nA practical utility for compressing PNG images.\n\nFile dialog integration for browse/save\nPIL resize with resampling for compression\n9. IDLE Prototype\nA basic IDE prototype with resizable split-pane interface.\n\nPanedWindow layout for sidebar + editor area\n10. Rotate Screen Tool\nRotates the physical display to 0/90/180/270 degrees.\n\nAuto-undo after specified seconds\nWindows display driver integration via rotatescreen\n11. Digital Clock\nA minimalist digital clock with compiled .exe distribution."
+			},
+			"image": "",
+			"technologies": ["Python"],
+			"github": "",
+			"demo": "",
+			"featured": false
+		}
+	]
+}
